@@ -51,7 +51,5 @@ func convertUnit(inputValue: Double) -> Double? {
     // Additional conversion logic for Length, Time, and Volume
     return convertedValue
 }
-<p float="center">
-  <img src="unitcoverter.png" />
+![Unit Converter](unitconverter.png)
 
-</p>
