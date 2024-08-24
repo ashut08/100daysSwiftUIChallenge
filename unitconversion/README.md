@@ -1,7 +1,10 @@
 # Unit Conversion App
 
 A simple and intuitive SwiftUI-based app that allows users to convert values between different units of measurement. This app supports conversion for temperature, length, time, and volume, making it a versatile tool for various conversion needs.
-![unitconverter](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/unitconversion/unitcoverter.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/unitconversion/unitcoverter.png" alt="unitconverter" width="300"/>
+</p>
+
 ## Features
 
 - **Temperature Conversion**: Convert between Celsius, Fahrenheit, and Kelvin.
