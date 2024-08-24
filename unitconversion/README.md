@@ -42,7 +42,8 @@ func convertUnit(inputValue: Double) -> Double? {
             convertedValue = (inputValue - 32) * 5/9
         } else if selectedInputUnit == "°C" && selectedOutputUnit == "°K" {
             convertedValue = inputValue + 273.15
-        } else if selectedInputUnit == "°K" && selectedOutputUnit == "°C" {
+        } else if selectedInputUnit == "°K" && sel
+ectedOutputUnit == "°C" {
             convertedValue = inputValue - 273.15
         } else {
             return nil // Unsupported temperature conversion
@@ -51,5 +52,5 @@ func convertUnit(inputValue: Double) -> Double? {
     // Additional conversion logic for Length, Time, and Volume
     return convertedValue
 }
-![Unit Converter](./unitconverter.png)
+![unitconverter](https://github.com/user-attachments/assets/99e13704-459f-44d5-8470-c8b48f4178a8)
 
