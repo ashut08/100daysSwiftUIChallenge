@@ -1,8 +1,10 @@
- Here's a README file that you can include in your project:
 
----
 
 # Rock Paper Scissors - Brain Training Game
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/rockPaperScissor/screenshot.png" alt="guesstheflag" width="300"/>
+</p>
+
 
 ## Project Overview
 
