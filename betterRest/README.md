@@ -40,9 +40,6 @@ A simple iOS app that helps users determine their optimal bedtime based on their
 - **Core ML**: For integrating machine learning models into the app to calculate optimal sleep times.
 - **Xcode**: For developing and testing the app.
 
-## Screenshots
-
-Include screenshots of the app in action (optional).
 
 ## How to Run the Project
 
