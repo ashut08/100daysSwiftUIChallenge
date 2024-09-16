@@ -14,6 +14,8 @@ struct ContentView: View {
     @State private var  countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"]
     @State private var  correctAnswer = Int.random(in: 0...2)
     @State private var score=0
+    @State private var selectedFlag: Int? = nil
+       @State private var spinAmount = 0.0
 
     @State private var questionCount = 0
       @State private var gameOver = false
@@ -43,9 +45,16 @@ struct ContentView: View {
                     Button {
                         flagTapped(number)
                     } label: {
-                        Image(countries[number]) .clipShape(.capsule
-                        )
-                            .shadow(radius: 5)
+                        Image(countries[number])
+                                   .clipShape(Capsule())
+                                   .shadow(radius: 5)
+                                   .overlay(Capsule().stroke(Color.black, lineWidth: 1))
+                                    .rotation3DEffect(
+                                    .degrees(selectedFlag == number ? spinAmount : spinAmount / 2),
+                                    axis: selectedFlag == number ? (x: 0, y: 1, z: 0) : (x: 1, y: 0, z: 0)
+                                )
+                                   .opacity(selectedFlag == nil || selectedFlag == number ? 1.0 : 0.25)
+                                   .scaleEffect(selectedFlag == number ? 1.0 : 0.7)
                     }
                 }
             }.frame(maxWidth: .infinity)
@@ -80,6 +89,13 @@ struct ContentView: View {
         }
     }
     func flagTapped(_ number: Int) {
+        selectedFlag=number
+        
+        withAnimation(.easeInOut(duration: 1)){
+            spinAmount += 360
+        }
+
+        
         if number == correctAnswer {
             scoreTitle = "Correct"
             
@@ -95,6 +111,7 @@ struct ContentView: View {
         showingScore = true
     }
     func askQuestion() {
+        selectedFlag=nil
             if questionCount == 8 {
                 gameOver = true
             } else {
