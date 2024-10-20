@@ -1,6 +1,6 @@
 Here’s a ready-to-use `README.md` file that you can copy and paste directly into your project repository without needing to make any changes:
 
-```markdown
+
 # Habit Tracker App
 
 This is a SwiftUI-based Habit Tracker app that allows users to track and manage their daily habits. Users can add activities they want to track, view details about each activity, mark them as completed, and see how many times each activity has been completed. The app also supports deleting and reordering activities, and all data is persisted using `UserDefaults`.
@@ -17,13 +17,22 @@ This is a SwiftUI-based Habit Tracker app that allows users to track and manage 
 ## Screenshots
 
 ### Main Screen
-![Main Screen](path_to_your_screenshot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/HabitTracker/Screenshot/main_screen.png" alt="edutainement" width="300"/>
+</p>
+
 
 ### Add Activity Screen
-![Add Activity Screen](path_to_add_activity_screenshot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/HabitTracker/Screenshot/add_new.png" alt="edutainement" width="300"/>
+</p>
+
 
 ### Activity Detail Screen
-![Activity Detail Screen](path_to_activity_detail_screenshot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/HabitTracker/Screenshot/activity_detail.png" alt="edutainement" width="300"/>
+</p>
+
 
 ## Installation
 
