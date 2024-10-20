@@ -38,7 +38,7 @@ This is a SwiftUI-based Habit Tracker app that allows users to track and manage 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/habit-tracker-app.git
+   git clone https://github.com/ashut08/100daysSwiftUIChallenge.git
    ```
 
 2. Open the project in Xcode:
