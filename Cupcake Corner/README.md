@@ -1,6 +1,6 @@
 Here’s a `README.md` template to guide users through your **Cupcake Corner** project with SwiftUI and Codable features.
 
-```markdown
+
 # 🍰 Cupcake Corner - SwiftUI App
 
 Cupcake Corner is a SwiftUI-based app built to take and manage cupcake orders while showcasing techniques like Codable, URLSession, and data persistence with UserDefaults. This project is part of the #100DaysOfSwiftUI challenge.
@@ -102,9 +102,10 @@ class Order: Codable {
 
 ## 📸 Screenshots
 
-| Home Screen | Order Summary | Address Form |
-|-------------|---------------|--------------|
-| ![Home](screenshots/home.png) | ![Summary](screenshots/summary.png) | ![Address](screenshots/address.png) |
+| Order Screen       | Address Screen     | Saved Address Screen | Checkout Screen   | Checkout Alert   |
+|--------------------|--------------------|-----------------------|-------------------|------------------|
+| ![Order](screenshots/order.png) | ![Address](screenshots/address.png) | ![Saved Address](screenshots/saved_address.png) | ![Checkout](screenshots/checkout.png) | ![Alert](screenshots/checkout_alert.png) |
+
 
 
 
