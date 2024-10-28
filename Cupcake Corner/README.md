@@ -104,7 +104,13 @@ class Order: Codable {
 
 | Order Screen       | Address Screen     | Saved Address Screen | Checkout Screen   | Checkout Alert   |
 |--------------------|--------------------|-----------------------|-------------------|------------------|
-| ![Order](screenshots/order.png) | ![Address](screenshots/address.png) | ![Saved Address](screenshots/saved_address.png) | ![Checkout](screenshots/checkout.png) | ![Alert](screenshots/checkout_alert.png) |
+| ![Order]<p align="center">
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/order.png" width="300"/>
+</p>| ![Address] <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/adress.png" width="300"/>
+</p>| | ![Saved Address] <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/saved_adress.png" width="300"/>
+</p>| | ![Checkout] <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/checkout.png" width="300"/>
+</p>|| ![Alert] <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/checkout_alert.png" width="300"/>
+</p>| |
 
 
 
