@@ -104,13 +104,7 @@ class Order: Codable {
 
 | Order Screen       | Address Screen     | Saved Address Screen | Checkout Screen   | Checkout Alert   |
 |--------------------|--------------------|-----------------------|-------------------|------------------|
-| ![Order]<p align="center">
-  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/order.png" width="300"/>
-</p>| ![Address] <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/adress.png" width="300"/>
-</p>| | ![Saved Address] <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/saved_adress.png" width="300"/>
-</p>| | ![Checkout] <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/checkout.png" width="300"/>
-</p>|| ![Alert] <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/checkout_alert.png" width="300"/>
-</p>| |
+| <p align="center"><img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/order.png" width="300"/></p> | <p align="center"><img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/address.png" width="300"/></p> | <p align="center"><img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/saved_address.png" width="300"/></p> | <p align="center"><img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/checkout.png" width="300"/></p> | <p align="center"><img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Cupcake%20Corner/screenshot/checkout_alert.png" width="300"/></p> |
 
 
 
