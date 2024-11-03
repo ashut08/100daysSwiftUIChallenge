@@ -36,7 +36,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/bookworm.git
+   git clone https://github.com/ashut08/100daysSwiftUIChallenge.git
    ```
 
 2. **Open Xcode**:
