@@ -1,4 +1,4 @@
-```markdown
+
 # 📚 Bookworm
 
 **Bookworm** is a book tracking app developed using SwiftUI and SwiftData as part of the #100DaysOfSwiftUI challenge. This app allows users to log books, provide ratings, write reviews, and track their reading history in a simple, user-friendly interface.
