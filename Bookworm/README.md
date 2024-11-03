@@ -17,10 +17,12 @@
 ## 📸 Screenshots
 
 ## 📸 Screenshots
+## 📸 Screenshots
 
-| Home Screen | Add Book | Book Details | Genre Selection |
-|-------------|----------|--------------|-----------------|
-| ![Home](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/home.png) | ![Add Book](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/addbook.png) | ![Book Details](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/delete.png) | ![Genre](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/genre.png) |
+| Home Screen | Add Book | Delete Book | Genre Selection | Book Details |
+|-------------|----------|--------------|-----------------|--------------|
+| ![Home](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/home.png) | ![Add Book](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/addbook.png) | ![Delete Book](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/delete.png) | ![Genre](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/genre.png) | ![Book Details](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Bookworm/screenshot/book_details.png) |
+
 
 
 ## 🚀 Getting Started
