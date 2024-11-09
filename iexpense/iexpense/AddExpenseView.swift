@@ -2,7 +2,8 @@ import SwiftUI
 
 struct AddView: View {
     @Environment(\.dismiss) var dismiss
-    @ObservedObject var expenses: Expenses // Receive the Expenses object from ContentView
+    @Environment(\.modelContext) var modelContext
+
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = 0.0
@@ -31,7 +32,7 @@ struct AddView: View {
             .toolbar {
                 Button("Save") {
                     let item = ExpenseItem(name: name, type: type, amount: amount)
-                    expenses.items.append(item) // Append the new expense to the Expenses object
+                    modelContext.insert(item)
                     dismiss() // Dismiss the view
                 }
             }
@@ -39,6 +40,3 @@ struct AddView: View {
     }
 }
 
-#Preview {
-    AddView(expenses: Expenses()) // For preview purposes, we pass an empty Expenses object
-}

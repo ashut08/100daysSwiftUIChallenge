@@ -1,11 +1,43 @@
 import SwiftUI
+import SwiftData
 
-struct ExpenseItem: Identifiable, Codable {
-    var id = UUID() // Automatically generates a unique ID
-    let name: String
-    let type: String
-    let amount: Double
+@Model
+class ExpenseItem: Identifiable, Codable {
+    var id: UUID
+    var name: String
+    var type: String
+    var amount: Double
+
+    // Initializer
+    init(id: UUID = UUID(), name: String, type: String, amount: Double) {
+        self.id = id
+        self.name = name
+        self.type = type
+        self.amount = amount
+    }
+
+    // MARK: - Codable Conformance
+    private enum CodingKeys: String, CodingKey {
+        case id, name, type, amount
+    }
+
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.id = try container.decode(UUID.self, forKey: .id)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.type = try container.decode(String.self, forKey: .type)
+        self.amount = try container.decode(Double.self, forKey: .amount)
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(id, forKey: .id)
+        try container.encode(name, forKey: .name)
+        try container.encode(type, forKey: .type)
+        try container.encode(amount, forKey: .amount)
+    }
 }
+
 
 class Expenses: ObservableObject {
     @Published var items = [ExpenseItem]() {
@@ -32,23 +64,28 @@ class Expenses: ObservableObject {
 }
 
 struct ContentView: View {
-    @StateObject var expenses = Expenses()
+    @Environment(\.modelContext) var modelContext
+
+    @Query var expenses: [ExpenseItem]
     @State private var showingAddExpense = false
     var currencyCode: String {
         Locale.current.currency?.identifier ?? "USD"
     }
-    var personalExpenses: [ExpenseItem] {
-        expenses.items.filter { $0.type == "Personal" }
-       }
+    
+    @Query(filter: #Predicate<ExpenseItem> { expense in
+        expense.type == "Personal"
+    },sort:  \ExpenseItem.amount) var personalExpenses: [ExpenseItem]
 
-       var businessExpenses: [ExpenseItem] {
-           expenses.items.filter { $0.type == "Business" }
-       }
+    @Query(filter: #Predicate<ExpenseItem> { expense in
+        expense.type == "Business"
+    },sort:  \ExpenseItem.amount) var businessExpenses: [ExpenseItem]
 
+    
     var body: some View {
         NavigationStack {
             VStack {
                 List {
+              
                     
                     if(!personalExpenses.isEmpty) {  Section("Personal Expenses"){
                         ForEach(personalExpenses) { item in
@@ -70,7 +107,8 @@ struct ContentView: View {
                     }
                     
                     
-                    if(!businessExpenses.isEmpty) {     Section("Buisness Expenses"){
+                    if(!businessExpenses.isEmpty) {
+                        Section("Buisness Expenses"){
                         ForEach(businessExpenses) { item in
                             HStack {
                                 VStack(alignment: .leading) {
@@ -84,7 +122,7 @@ struct ContentView: View {
                             }
                         }
                         .onDelete { offsets in
-                                                   removeItems(from: businessExpenses, at: offsets)
+                            removeItems(from: businessExpenses, at: offsets)
                                                }
                     }
                     }
@@ -100,21 +138,28 @@ struct ContentView: View {
             }
             .navigationTitle("iExpenses")
             .sheet(isPresented: $showingAddExpense) {
-                AddView(expenses: expenses)
+                AddView()
             }
         }
     }
     
 
-    // Remove items from the list, carefully handling different sections
-        func removeItems(from category: [ExpenseItem], at offsets: IndexSet) {
-            for offset in offsets {
-                if let index = expenses.items.firstIndex(where: { $0.id == category[offset].id }) {
-                    expenses.items.remove(at: index)
-                }
-            }
+
+    private func removeItems(from items: [ExpenseItem], at offsets: IndexSet) {
+        for index in offsets {
+            let item = items[index]
+            modelContext.delete(item)
         }
-    func returnColr(_ amount:Double) -> Color {
+        
+        do {
+            try modelContext.save()
+        } catch {
+            print("Failed to delete items: \(error.localizedDescription)")
+        }
+    }
+    
+        
+        func returnColr(_ amount:Double) -> Color {
         if amount < 100 {
                     return .green
                 } else if amount < 1000 {
