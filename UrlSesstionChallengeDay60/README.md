@@ -1,7 +1,6 @@
-Here's a comprehensive `README.md` file for your Day 60 challenge project, 
-# 🌐 FriendFace - SwiftUI URLSession Challenge (Day 60)
 
-Welcome to **FriendFace**, a SwiftUI app built as part of Day 60 of the #100DaysOfSwiftUI challenge. This project showcases **networking with URLSession**, **JSON parsing with Codable**, and an enhanced user interface using **SwiftUI components** like `NavigationStack`, `List`, `Form`, and more.
+
+SwiftUI app built as part of Day 60 of the #100DaysOfSwiftUI challenge. This project showcases **networking with URLSession**, **JSON parsing with Codable**, and an enhanced user interface using **SwiftUI components** like `NavigationStack`, `List`, `Form`, and more.
 
 ## 🚀 Features
 
@@ -23,7 +22,8 @@ Welcome to **FriendFace**, a SwiftUI app built as part of Day 60 of the #100Days
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/FriendFace.git
+   git clone https://github.com/ashut08/100daysSwiftUIChallenge.git
+   
    ```
 
 2. **Open the project in Xcode**:
@@ -45,7 +45,7 @@ Welcome to **FriendFace**, a SwiftUI app built as part of Day 60 of the #100Days
 
 | User List View | User Detail View |
 |----------------|------------------|
-| ![User List](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/UrlSesstionChallengeDay60/screenshots/userlist.png) | ![User Detail](https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/UrlSesstionChallengeDay60/screenshots/userdetail.png) |
+| ![User List]  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/UrlSesstionChallengeDay60/Screenshot/userlist.png" alt="unitconverter" width="300"/> | ![User Detail]  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/UrlSesstionChallengeDay60/Screenshot/userdetail.png" alt="unitconverter" width="300"/> |
 
 ## 🗂️ Project Structure
 

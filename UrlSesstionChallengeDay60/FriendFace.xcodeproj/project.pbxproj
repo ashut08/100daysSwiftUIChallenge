@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F89C682CE07B3D00B9DE10 /* UrlSesstionChallengeDay60.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrlSesstionChallengeDay60.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04F89C782CE07B3F00B9DE10 /* UrlSesstionChallengeDay60Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrlSesstionChallengeDay60Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04F89C822CE07B3F00B9DE10 /* UrlSesstionChallengeDay60UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrlSesstionChallengeDay60UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89C682CE07B3D00B9DE10 /* FriendFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89C782CE07B3F00B9DE10 /* FriendFaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89C822CE07B3F00B9DE10 /* FriendFaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		04F89C692CE07B3D00B9DE10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04F89C682CE07B3D00B9DE10 /* UrlSesstionChallengeDay60.app */,
-				04F89C782CE07B3F00B9DE10 /* UrlSesstionChallengeDay60Tests.xctest */,
-				04F89C822CE07B3F00B9DE10 /* UrlSesstionChallengeDay60UITests.xctest */,
+				04F89C682CE07B3D00B9DE10 /* FriendFace.app */,
+				04F89C782CE07B3F00B9DE10 /* FriendFaceTests.xctest */,
+				04F89C822CE07B3F00B9DE10 /* FriendFaceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04F89C672CE07B3D00B9DE10 /* UrlSesstionChallengeDay60 */ = {
+		04F89C672CE07B3D00B9DE10 /* FriendFace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04F89C8C2CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "UrlSesstionChallengeDay60" */;
+			buildConfigurationList = 04F89C8C2CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "FriendFace" */;
 			buildPhases = (
 				04F89C642CE07B3D00B9DE10 /* Sources */,
 				04F89C652CE07B3D00B9DE10 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				04F89C6A2CE07B3D00B9DE10 /* UrlSesstionChallengeDay60 */,
 			);
-			name = UrlSesstionChallengeDay60;
+			name = FriendFace;
 			packageProductDependencies = (
 			);
 			productName = UrlSesstionChallengeDay60;
-			productReference = 04F89C682CE07B3D00B9DE10 /* UrlSesstionChallengeDay60.app */;
+			productReference = 04F89C682CE07B3D00B9DE10 /* FriendFace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04F89C772CE07B3F00B9DE10 /* UrlSesstionChallengeDay60Tests */ = {
+		04F89C772CE07B3F00B9DE10 /* FriendFaceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04F89C8F2CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "UrlSesstionChallengeDay60Tests" */;
+			buildConfigurationList = 04F89C8F2CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "FriendFaceTests" */;
 			buildPhases = (
 				04F89C742CE07B3F00B9DE10 /* Sources */,
 				04F89C752CE07B3F00B9DE10 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				04F89C7B2CE07B3F00B9DE10 /* UrlSesstionChallengeDay60Tests */,
 			);
-			name = UrlSesstionChallengeDay60Tests;
+			name = FriendFaceTests;
 			packageProductDependencies = (
 			);
 			productName = UrlSesstionChallengeDay60Tests;
-			productReference = 04F89C782CE07B3F00B9DE10 /* UrlSesstionChallengeDay60Tests.xctest */;
+			productReference = 04F89C782CE07B3F00B9DE10 /* FriendFaceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04F89C812CE07B3F00B9DE10 /* UrlSesstionChallengeDay60UITests */ = {
+		04F89C812CE07B3F00B9DE10 /* FriendFaceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04F89C922CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "UrlSesstionChallengeDay60UITests" */;
+			buildConfigurationList = 04F89C922CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "FriendFaceUITests" */;
 			buildPhases = (
 				04F89C7E2CE07B3F00B9DE10 /* Sources */,
 				04F89C7F2CE07B3F00B9DE10 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				04F89C852CE07B3F00B9DE10 /* UrlSesstionChallengeDay60UITests */,
 			);
-			name = UrlSesstionChallengeDay60UITests;
+			name = FriendFaceUITests;
 			packageProductDependencies = (
 			);
 			productName = UrlSesstionChallengeDay60UITests;
-			productReference = 04F89C822CE07B3F00B9DE10 /* UrlSesstionChallengeDay60UITests.xctest */;
+			productReference = 04F89C822CE07B3F00B9DE10 /* FriendFaceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04F89C632CE07B3D00B9DE10 /* Build configuration list for PBXProject "UrlSesstionChallengeDay60" */;
+			buildConfigurationList = 04F89C632CE07B3D00B9DE10 /* Build configuration list for PBXProject "FriendFace" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04F89C672CE07B3D00B9DE10 /* UrlSesstionChallengeDay60 */,
-				04F89C772CE07B3F00B9DE10 /* UrlSesstionChallengeDay60Tests */,
-				04F89C812CE07B3F00B9DE10 /* UrlSesstionChallengeDay60UITests */,
+				04F89C672CE07B3D00B9DE10 /* FriendFace */,
+				04F89C772CE07B3F00B9DE10 /* FriendFaceTests */,
+				04F89C812CE07B3F00B9DE10 /* FriendFaceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		04F89C7A2CE07B3F00B9DE10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04F89C672CE07B3D00B9DE10 /* UrlSesstionChallengeDay60 */;
+			target = 04F89C672CE07B3D00B9DE10 /* FriendFace */;
 			targetProxy = 04F89C792CE07B3F00B9DE10 /* PBXContainerItemProxy */;
 		};
 		04F89C842CE07B3F00B9DE10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04F89C672CE07B3D00B9DE10 /* UrlSesstionChallengeDay60 */;
+			target = 04F89C672CE07B3D00B9DE10 /* FriendFace */;
 			targetProxy = 04F89C832CE07B3F00B9DE10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrlSesstionChallengeDay60.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UrlSesstionChallengeDay60";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendFace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendFace";
 			};
 			name = Debug;
 		};
@@ -476,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrlSesstionChallengeDay60.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UrlSesstionChallengeDay60";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendFace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendFace";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04F89C632CE07B3D00B9DE10 /* Build configuration list for PBXProject "UrlSesstionChallengeDay60" */ = {
+		04F89C632CE07B3D00B9DE10 /* Build configuration list for PBXProject "FriendFace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F89C8A2CE07B3F00B9DE10 /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04F89C8C2CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "UrlSesstionChallengeDay60" */ = {
+		04F89C8C2CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "FriendFace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F89C8D2CE07B3F00B9DE10 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04F89C8F2CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "UrlSesstionChallengeDay60Tests" */ = {
+		04F89C8F2CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "FriendFaceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F89C902CE07B3F00B9DE10 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04F89C922CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "UrlSesstionChallengeDay60UITests" */ = {
+		04F89C922CE07B3F00B9DE10 /* Build configuration list for PBXNativeTarget "FriendFaceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F89C932CE07B3F00B9DE10 /* Debug */,
