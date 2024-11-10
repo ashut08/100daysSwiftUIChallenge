@@ -45,7 +45,7 @@ SwiftUI app built as part of Day 60 of the #100DaysOfSwiftUI challenge. This pro
 
 | User List View | User Detail View |
 |----------------|------------------|
-|  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/unitconversion/unitcoverter.png" alt="unitconverter" width="300"/> |   <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/unitconversion/unitcoverter.png" alt="unitconverter" width="300"/> |
+|  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/UrlSesstionChallengeDay60/Screenshot/userlist.png" alt="userlist" width="300"/> |   <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/UrlSesstionChallengeDay60/Screenshot/userdetail.png" alt="userdetail" width="300"/> |
 
 ## 🗂️ Project Structure
 
