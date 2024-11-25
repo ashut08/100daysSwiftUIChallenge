@@ -39,3 +39,9 @@ A SwiftUI-based photo filtering app that allows users to apply and customize var
 
 ## 📷 Screenshots  
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/instaFilter/home.png" alt="home" width="300"/>
+   <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/instaFilter/home1.png" alt="home1" width="300"/>
+    <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/instaFilter/filters.png" alt="filters" width="300"/>
+      <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/instaFilter/share.png" alt="share" width="300"/>
+</p>
