@@ -1,7 +1,17 @@
 # Photo Memory App
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/Home.png" alt="home" width="300"/>
+   <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/AfterPhoto.png" alt="home1" width="300"/>
+    <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/PhotoDetails.png" alt="filters" width="300"/>
+      <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/PhotoListing.png" alt="share" width="300"/>
+          <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/EnterPhotoName.png" alt="share" width="300"/>
+</p>
+
 ## Overview
 The Photo Memory App is a SwiftUI-based iOS application that helps users remember names associated with photos. Users can import photos from their library, assign a name to each photo, view a list of named photos, and tap an item to see a full-size version of the picture in a detail view. The app saves data persistently, ensuring photos and names are retained across app launches.
+
+
 
 ## Features
 - **Photo Import:** Users can select photos from their library using the `PhotosPicker`.
@@ -29,13 +39,12 @@ The Photo Memory App is a SwiftUI-based iOS application that helps users remembe
 
 ## Key Components
 ### Models
-- `PhotoMemory`: Represents a photo and its associated name.
+- `PhotoCollection`: Represents a photo and its associated name.
 
 ### Views
 - **Main View:** Displays the list of photos and names.
 - **Detail View:** Shows the selected photo in full size.
 
-s
 
 ## Accessibility
 The app includes VoiceOver support for:
@@ -47,8 +56,3 @@ The app includes VoiceOver support for:
 - Sync data across devices using iCloud.
 - Include a search bar to find photos by name.
 
-## Contributing
-Contributions are welcome! Please fork the repository, make changes, and submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
