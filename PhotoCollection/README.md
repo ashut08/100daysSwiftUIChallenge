@@ -1,11 +1,12 @@
 # Photo Memory App
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/Home.png" alt="home" width="300"/>
-   <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/AfterPhoto.png" alt="home1" width="300"/>
-    <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/PhotoDetails.png" alt="filters" width="300"/>
-      <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/PhotoListing.png" alt="share" width="300"/>
-          <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/screenshot/EnterPhotoName.png" alt="share" width="300"/>
+
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/Screenshot/Home.png" alt="home" width="300"/>
+   <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/Screenshot/AfterPhoto.png" alt="home1" width="300"/>
+    <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/Screenshot/PhotoDetails.png" alt="filters" width="300"/>
+      <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/Screenshot/PhotoListing.png" alt="share" width="300"/>
+          <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/Screenshot/EnterPhotoName.png" alt="share" width="300"/>
 </p>
 
 ## Overview
