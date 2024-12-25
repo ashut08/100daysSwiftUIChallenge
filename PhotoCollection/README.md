@@ -47,10 +47,7 @@ The Photo Memory App is a SwiftUI-based iOS application that helps users remembe
 - **Detail View:** Shows the selected photo in full size.
 
 
-## Accessibility
-The app includes VoiceOver support for:
-- Reading photo names and counts.
-- Navigating between list and detail views.
+
 
 ## Future Enhancements
 - Add tagging and categorization of photos.
