@@ -1,13 +1,15 @@
 # Hot Prospects App  
 
 <p align="center">  
-  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/PhotoCollection/Screenshot/Home.png" alt="Everyone Tab" width="300"/>  
-  <img src="https://raw.githubusercontent.com/yourusername/HotProspects/main/Screenshots/ContactedTab.png" alt="Contacted Tab" width="300"/>  
-  <img src="https://raw.githubusercontent.com/yourusername/HotProspects/main/Screenshots/UncontactedTab.png" alt="Uncontacted Tab" width="300"/>  
-  <img src="https://raw.githubusercontent.com/yourusername/HotProspects/main/Screenshots/QRShare.png" alt="QR Code Sharing" width="300"/>  
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Hot%20Prospects/Screenshot/Everyone.png" alt="Everyone Tab" width="300"/>  
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Hot%20Prospects/Screenshot/connected.png" alt="Contacted Tab" width="300"/>  
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Hot%20Prospects/Screenshot/unconnectedpng.png" alt="Uncontacted Tab" width="300"/>  
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Hot%20Prospects/Screenshot/me.png" alt="QR Code Sharing" width="300"/>  
+   <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Hot%20Prospects/Screenshot/edit.png" alt="QR Code Sharing" width="300"/>  
+    <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Hot%20Prospects/Screenshot/share.png" alt="QR Code Sharing" width="300"/>  
 </p>  
 
-## Overview  c
+## Overview  
 Hot Prospects is a SwiftUI-based iOS application that simplifies contact management. It allows users to scan QR codes, add prospects, and organize them into contacted and uncontacted categories. Users can also generate and share their own QR codes containing personal contact information.  
 
 ## Features  
