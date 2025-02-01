@@ -8,11 +8,13 @@ Flashzilla is a simple flashcard app built with SwiftUI.
 - Add and delete custom flashcards.
 - Countdown timer for practice sessions.
 
-## How to Use
-1. Swipe right ✅ to mark correct.
-2. Swipe left ❌ to remove.
-3. Tap a card to see the answer.
-4. Use the edit screen to add or delete cards.
 
-## Installation
-1. Clone the repo:
+## Screenshot 
+
+<p align="center">  
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Flashzilla/Screenshot/edit.png" alt="Edit" width="300"/>  
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Flashzilla/Screenshot/swipeleft.png" alt="Swipe Left" width="300"/>  
+  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/refs/heads/main/Flashzilla/Screenshot/swiperight.png" alt="Uncontacted Tab" width="300"/>  
+ 
+</p>  
+
