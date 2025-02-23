@@ -55,7 +55,7 @@ I have successfully completed **Paul Hudson’s 100 Days of SwiftUI** course, ma
 
 ---
 
-### 🏆 **6. Moonshot **  
+### 🏆 **6. Moonshot**  
 💡 **Concept:** A space exploration app using **List, Codable, JSON Parsing**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/moonshot)**  
 
