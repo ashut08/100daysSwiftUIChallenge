@@ -97,18 +97,18 @@ I have successfully completed **Paul Hudson’s 100 Days of SwiftUI** course, ma
 
 ---
 
-### 🏆 **13.Hot Prospects **  
+### 🏆 **13.Hot Prospects**  
 💡 **Concept:** A flashcard learning app using **DragGesture, Timers**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Hot%20Prospects)**  
 
 ---
 
-### 🏆 **14. Flashzilla **  
+### 🏆 **14. Flashzilla**  
 💡 **Concept:** A travel app optimized for **iPadOS, NavigationSplitView**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Flashzilla)**  
 
 ---
-### 🏆 **15. SnowSeeker **  
+### 🏆 **15. SnowSeeker**  
 💡 **Concept:** A travel app optimized for **iPadOS, NavigationSplitView**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/SnowSeeker)**  
 
