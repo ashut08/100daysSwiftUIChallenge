@@ -11,7 +11,7 @@ I have successfully completed **Paul Hudson’s 100 Days of SwiftUI** course, ma
 📌 This repository includes all **projects**, **challenges**, and **custom implementations** that I built throughout my journey.  
 
 🔥 **Key Highlights:**  
-- ✅ Built **13+ full-fledged iOS projects**  
+- ✅ Built **15+ full-fledged iOS projects**  
 - ✅ Completed **all challenges & milestones**  
 - ✅ Mastered **SwiftUI, SwiftData, Animations, and Gestures**  
 - ✅ Implemented **MVVM Architecture and SwiftData for data persistence**  
@@ -21,80 +21,97 @@ I have successfully completed **Paul Hudson’s 100 Days of SwiftUI** course, ma
 
 ## 🚀 Projects Built  
 
-### 🏆 **1. WeSplit (Days 16 - 18)**  
+### 🏆 **1. WeSplit **  
 💡 **Concept:** A bill-splitting app using **@State, NavigationView**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/wesplit)**  
 
 ---
 
-### 🏆 **2. Guess the Flag (Days 20 - 22)**  
+### 🏆 **2. Guess the Flag **  
 💡 **Concept:** A flag-guessing game with animations and transitions.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/guesstheflag)**  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/GuessTheFlag)**  
 
 
----
-
-### 🏆 **3. Views and Modifiers (Days 23 - 24)**  
-💡 **Concept:** Understanding custom modifiers, layout, and view composition.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/viewsandmodifiers)**  
 
 ---
 
-### 🏆 **4. BetterRest (Days 26 - 28)**  
+### 🏆 **3. BetterRest **  
 💡 **Concept:** A sleep recommendation app using **MLCore**.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/betterrest)**  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/betterRest)**  
 
 ---
 
-### 🏆 **5. Word Scramble (Days 29 - 31)**  
+### 🏆 **4. Word Scramble**  
 💡 **Concept:** A word game using **UITextChecker** for spell-checking.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/wordscramble)**  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/WordScramble)**  
+
+
 
 ---
 
-### 🏆 **6. Animations (Days 32 - 34)**  
-💡 **Concept:** Exploring SwiftUI animations, transitions, and effects.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/animations)**  
-
----
-
-### 🏆 **7. iExpense (Days 36 - 38)**  
+### 🏆 **5. iExpense**  
 💡 **Concept:** Expense tracking app with **UserDefaults & Codable**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/iexpense)**  
 
 ---
 
-### 🏆 **8. Moonshot (Days 39 - 42)**  
+### 🏆 **6. Moonshot **  
 💡 **Concept:** A space exploration app using **List, Codable, JSON Parsing**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/moonshot)**  
-📷 **Screenshot:**  
-<p align="center">
+
   <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/Screenshots/moonshot.png" alt="Moonshot App" width="300"/>
 </p>
 
 ---
 
-### 🏆 **9. Cupcake Corner (Days 49 - 52)**  
+### 🏆 **7. Cupcake Corner **  
 💡 **Concept:** A cupcake ordering app with **Form, Codable, URLSession**.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/cupcakecorner)**  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Cupcake%20Corner)**  
 
 ---
 
-### 🏆 **10. Hot Prospects (Days 79 - 85)**  
+### 🏆 **8. Bookworm**  
 💡 **Concept:** A contact management app using **QR Code Scanning, SwiftData**.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/hotprospects)**  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Bookworm)**  
 
 ---
 
-### 🏆 **11. Flashzilla (Days 86 - 91)**  
+### 🏆 **9. InstaFilter**  
+💡 **Concept:** A contact management app using **QR Code Scanning, SwiftData**.  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/InstaFilter)**  
+
+---
+### 🏆 **10. BucketList**  
+💡 **Concept:** A contact management app using **QR Code Scanning, SwiftData**.  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/BucketList)**  
+
+---
+### 🏆 **11. BucketList**  
+💡 **Concept:** A contact management app using **QR Code Scanning, SwiftData**.  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/BucketList)**  
+
+---
+
+### 🏆 **12. AccessibilitySandbox**  
+💡 **Concept:** A contact management app using **QR Code Scanning, SwiftData**.  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/AccessibilitySandbox)**  
+
+---
+
+### 🏆 **13.Hot Prospects **  
 💡 **Concept:** A flashcard learning app using **DragGesture, Timers**.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/flashzilla)**  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Hot Prospects)**  
 
 ---
 
-### 🏆 **12. SnowSeeker (Days 96 - 99)**  
+### 🏆 **14. Flashzilla **  
 💡 **Concept:** A travel app optimized for **iPadOS, NavigationSplitView**.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/snowseeker)**  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Flashzilla)**  
+
+---
+### 🏆 **15. SnowSeeker **  
+💡 **Concept:** A travel app optimized for **iPadOS, NavigationSplitView**.  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/SnowSeeker)**  
 
 ---
 
@@ -108,11 +125,6 @@ I have successfully completed the **100 Days of SwiftUI** challenge. Here’s my
 
 ---
 
-## 📢 My LinkedIn Journey  
-
-Throughout my journey, I shared my daily progress and learnings on **LinkedIn**. Here’s the complete collection:  
-
-🔗 [LinkedIn Posts - 100 Days of SwiftUI](#)  
 
 
 ## 💡 Lessons Learned  
