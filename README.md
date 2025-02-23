@@ -21,13 +21,13 @@ I have successfully completed **Paul Hudson’s 100 Days of SwiftUI** course, ma
 
 ## 🚀 Projects Built  
 
-### 🏆 **1. WeSplit **  
+### 🏆 **1. WeSplit**  
 💡 **Concept:** A bill-splitting app using **@State, NavigationView**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/wesplit)**  
 
 ---
 
-### 🏆 **2. Guess the Flag **  
+### 🏆 **2. Guess the Flag**  
 💡 **Concept:** A flag-guessing game with animations and transitions.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/GuessTheFlag)**  
 
@@ -35,7 +35,7 @@ I have successfully completed **Paul Hudson’s 100 Days of SwiftUI** course, ma
 
 ---
 
-### 🏆 **3. BetterRest **  
+### 🏆 **3. BetterRest**  
 💡 **Concept:** A sleep recommendation app using **MLCore**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/betterRest)**  
 
@@ -59,12 +59,11 @@ I have successfully completed **Paul Hudson’s 100 Days of SwiftUI** course, ma
 💡 **Concept:** A space exploration app using **List, Codable, JSON Parsing**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/moonshot)**  
 
-  <img src="https://raw.githubusercontent.com/ashut08/100daysSwiftUIChallenge/main/Screenshots/moonshot.png" alt="Moonshot App" width="300"/>
-</p>
+
 
 ---
 
-### 🏆 **7. Cupcake Corner **  
+### 🏆 **7. Cupcake Corner**  
 💡 **Concept:** A cupcake ordering app with **Form, Codable, URLSession**.  
 📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Cupcake%20Corner)**  
 
@@ -100,7 +99,7 @@ I have successfully completed **Paul Hudson’s 100 Days of SwiftUI** course, ma
 
 ### 🏆 **13.Hot Prospects **  
 💡 **Concept:** A flashcard learning app using **DragGesture, Timers**.  
-📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Hot Prospects)**  
+📌 **[Project Link](https://github.com/ashut08/100daysSwiftUIChallenge/tree/main/Hot%20Prospects)**  
 
 ---
 
